@@ -1,0 +1,6 @@
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+# ফাইল এডিট করুন
+git add .
+git commit -m "আপনার কমিট মেসেজ"
+git push origin main
