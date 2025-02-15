@@ -1,1 +1,0 @@
-# AI-Background-Remover

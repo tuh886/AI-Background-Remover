@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Background Remover</title>
+    <meta name="description" content="Remove background from images easily with our professional tool.">
+    <meta name="keywords" content="image background removal, photo editing, professional tool, AI, online tool">
+    <meta name="author" content="Your Company Name">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'YOUR_TRACKING_ID');
+    </script>
+</head>
+<body>
+    <header>
+        <h1>
+            <img src="image/logo.png" alt="Website Logo" style="height: 50px; vertical-align: middle;">
+            AI Remove Background from Image
+        </h1>
+        <nav>
+            <ul>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Remove Background from Image</h2>
+        <input type="file" id="imageUpload" accept="image/*" style="display: none;">
+        <label for="imageUpload" class="upload-button">Upload Image</label>
+        <button id="processButton">Remove Background</button>
+        <div id="loadingAnimation"></div>
+        <div class="image-container">
+            <div class="original-image">
+                <h2>Original Image</h2>
+                <img id="originalImg" src="" alt="">
+            </div>
+            <div class="processed-image">
+                <h2>Processed Image</h2>
+                <img id="processedImg" src="" alt="">
+            </div>
+        </div>
+        <button id="downloadButton">Download HD</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
